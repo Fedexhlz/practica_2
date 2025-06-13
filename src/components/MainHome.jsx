@@ -22,13 +22,15 @@ const MainHome = ({ numero }) => {
 
   return (
     <>
-      <Button className='mx-3' type='button' onClick={handleSumar}>
-        Sumar 10
-      </Button>
       <Button className='mx-3' type='button' onClick={handleRestar}>
         Restar 10
       </Button>
-      <h1>numero = {num}</h1>
+      <Button className='mx-3' type='button' onClick={handleSumar}>
+        Sumar 10
+      </Button>
+      <br />
+      <br />
+      <h2>numero = {num}</h2>
     </>
   );
 };
